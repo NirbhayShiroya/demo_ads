@@ -90,7 +90,7 @@ class _demobanneradsState extends State<demobannerads> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(title: Text("Banner Ads"),),
       body: _getAdWidget(),
     );
   }
